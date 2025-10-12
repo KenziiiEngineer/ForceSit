@@ -1,0 +1,18 @@
+name: ForceSit
+version: '1.0'
+main: wtf.kennn.forceSit.ForceSit
+api-version: '1.20'
+author: Kennnn
+description: Forza acciones del plugin GSit
+commands:
+  force:
+    description: Controla las acciones (sit, lay, bellyflop, stop)
+permissions:
+  forcesit.*:
+    description: Acceso total al plugin
+    default: op
+    children:
+      forcesit.sit: true
+      forcesit.lay: true
+      forcesit.bellyflop: true
+      forcesit.stop: true
